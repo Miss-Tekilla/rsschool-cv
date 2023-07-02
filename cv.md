@@ -1,5 +1,5 @@
 # Christina Dubrovskaya
-![я](https://github.com/Miss-Tekilla/rsschool-cv/assets/118567116/05d47e68-9022-4461-a1b8-be5a7d515010)
+![я](https://github.com/Miss-Tekilla/rsschool-cv/assets/118567116/bfbeb60e-7cb7-46db-a0e9-e9f4d6383fc0)
 
 Future Frontend Developer
 <hr />
