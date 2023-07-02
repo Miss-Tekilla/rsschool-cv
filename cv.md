@@ -54,7 +54,7 @@ function expressionMatter(a, b, c) {
 I am currently a store manager. 
 I hope that next year I will change my profession.
 
-My first project - [CV](https://Miss-Tekilla.github.io/rsschool-cv/cv "CV.md")
+My first project - [CV](https://Miss-Tekilla.github.io/rsschool-cv/cv"CV.md")
 <hr />
 
 ## Education:
