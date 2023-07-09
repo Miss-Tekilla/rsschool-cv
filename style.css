@@ -1,13 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #b5a789;
-    font-size: small;
+    font-weight: bolder;
     margin: 0px;
 }
 
 h1 {
-    font-size: 120%;
+    font-size: 140%;
     color: #954b4b;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #e2c2c2;
+
 }
 
 a:link {
@@ -33,15 +36,7 @@ a:visited {
     height: 108px;
 }
 
-.main {
-    background-color: #efe5d0;
-    font-size: 105%;
-    padding: 15px;
-    margin: 0 10px 10px;
-}
-
 .aside {
-    background-color: #efe5d0;
     font-size: 105%;
     padding: 15px;
     margin: 0 10px 10px;
@@ -57,8 +52,12 @@ a:visited {
     color: #efe5d0;
     text-align: center;
     padding: 15px;
-    margin: 10px;
+    margin: 0 10px 10px;
     font-size: 90%;
+}
+
+.footer-logo {
+    margin: 0 0 0 800px;
 }
 
 .slogan {
@@ -91,3 +90,31 @@ nav ul li a:link, nav ul li a:visited {
     font-weight: bold;
     text-shadow: 1px 1px 3px #e2c2c2;
 }
+
+.tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.contacts, .inform, .aside {
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 105%;
+    background-color: #efe5d0;
+    background-image: url(/assets/background.png);
+}
+
+.cv {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: #efe5d0;
+}
+
+

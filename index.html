@@ -13,6 +13,7 @@
 <body>
     <header class="header">
         <img src="assets\header.png" alt="girl-web-developer" width="229" height="116">
+        <span class="cv">CV</span>
         <img class="slogan" src="assets\header2.png" alt="slogan" width="229" height="116">
     </header>
 
@@ -28,8 +29,9 @@
         </ul>
     </nav>
 
-    <main class="main">
-        <section>
+    <div class="tableContainer">
+    <div class="tableRow">
+        <section class="contacts">
             <h1 id="cont">Сontacts:</h1>
             <ul>
                 <li>Location: <span class="light-color">Kaluga, Russia</span></li>
@@ -46,7 +48,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="inform">
             <h1 id="code">Code example:</h1>
             <p>This is a task from the site codewars.com
                 <blockquote>Since you have not yet solved this kata we have hidden the solutions from you. If you choose to 
@@ -70,7 +72,6 @@
             <h1 id="lang">Languages:</h1>
             <p>English - B1 (study at the moment)</p>
         </section>
-    </main>
 
         <aside class="aside">
             <p class="name"><h2>Christina Dubrovskaya</h2>
@@ -80,10 +81,12 @@
             <p>The IT world has always been interesting to me. My dream and goal is to become a developer.</p>
             <p>I want to change the world and help people with my skills.</p>
         </aside>
-
+    </div>
+    </div>
+       
         <footer class="footer">
             &copy; 2023, <span id="linkfooter"><a href="https://github.com/Miss-Tekilla">Christina Dubrovskaya</a></span>
-            <a href="https://rs.school/js/"><img src="assets\rss-logo.png" alt="RS-School-logo"></a>
+            <a href="https://rs.school/js/"><img class="footer-logo" src="assets\rss-logo.png" alt="RS-School-logo"></a>
         </footer>
 </body>
 </html>
