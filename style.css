@@ -24,7 +24,8 @@ a:link {
     border-bottom: thin dotted #b76666;
 }
 
-#linkfooter a:link, #linkfooter a:visited {
+#linkfooter a:link, 
+#linkfooter a:visited {
     color: #efe5d0;
     border-bottom: thin dotted #efe5d0;
 }
@@ -96,7 +97,8 @@ nav ul li a {
     line-height: 50px;
 }
 
-nav ul li a:link, nav ul li a:visited {
+nav ul li a:link, 
+nav ul li a:visited {
     color: #954b4b;
     border-bottom: none;
     font-weight: bold;
@@ -142,13 +144,15 @@ nav ul li a:link, nav ul li a:visited {
     display: table-row;
 }
 
-.contacts, .inform, .aside {
+.contacts, 
+.inform, 
+.aside {
     display: table-cell;
     padding: 15px;
     vertical-align: top;
     font-size: 105%;
     background-color: #efe5d0;
-    background-image: url(/assets/background.png);
+    background-image: url("/assets/background.png");
 }
 
 .cv {
@@ -171,12 +175,6 @@ html {
     .section, .aside {
       width: 100%;
     }
-  }
-
-  code {
-    font-size: 80%;
-    font-weight: lighter;
-    font-family: 'Courier New', Courier, monospace;
   }
 
 
