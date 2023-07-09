@@ -3,13 +3,18 @@ body {
     background-color: #b5a789;
     font-weight: bolder;
     margin: 0px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4d2323;
 }
 
 h1 {
-    font-size: 140%;
+    font-size: 20px;
     color: #954b4b;
     font-weight: bold;
     text-shadow: 1px 1px 3px #e2c2c2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 
 }
 
@@ -57,7 +62,10 @@ a:visited {
 }
 
 .footer-logo {
-    margin: 0 0 0 800px;
+    margin: 0;
+    position: relative;
+    top: 60%;
+    left: 30%;
 }
 
 .slogan {
@@ -84,11 +92,46 @@ nav ul li {
     padding: 5px 10px;
 }
 
+nav ul li a {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
 nav ul li a:link, nav ul li a:visited {
     color: #954b4b;
     border-bottom: none;
     font-weight: bold;
     text-shadow: 1px 1px 3px #e2c2c2;
+}
+
+.underline-one {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #954b4b;
+    transition: width 1s;
 }
 
 .tableContainer {
@@ -116,5 +159,25 @@ nav ul li a:link, nav ul li a:visited {
     left: 45%;
     color: #efe5d0;
 }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+  blockquote {
+    font-size: 90%;
+  }
+
+  @media (max-width: 768px) {
+    .section, .aside {
+      width: 100%;
+    }
+  }
+
+  code {
+    font-size: 80%;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
 
