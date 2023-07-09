@@ -29,7 +29,7 @@ a:visited {
 
 .header {
     background-color: #675c47;
-    margin: 10px;
+    margin: 10px 10px 0;
     height: 108px;
 }
 
@@ -59,4 +59,35 @@ a:visited {
     padding: 15px;
     margin: 10px;
     font-size: 90%;
+}
+
+.slogan {
+    float: right;
+}
+
+.light-color {
+    color: #777268;
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #e2c2c2;
 }
