@@ -1,3 +1,62 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #b5a789;
+    font-size: small;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 120%;
+    color: #954b4b;
+}
+
+a:link {
+    color: #b76666;
+    text-decoration: none;
+    border-bottom: thin dotted #b76666;
+}
+
+#linkfooter a:link, #linkfooter a:visited {
+    color: #efe5d0;
+    border-bottom: thin dotted #efe5d0;
+}
+
+a:visited {
+    color: #675c47;
+    text-decoration: none;
+    border-bottom: thin dotted #675c47;
+}
+
+.header {
+    background-color: #675c47;
+    margin: 10px;
+    height: 108px;
+}
+
+.main {
+    background-color: #efe5d0;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0 10px 10px;
+}
+
+.aside {
+    background-color: #efe5d0;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0 10px 10px;
+}
+
+.name {
+    text-align: center;
+    line-height: 1,8em;
+}
+
+.footer {
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 90%;
 }
